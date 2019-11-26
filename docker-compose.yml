@@ -28,6 +28,7 @@ services:
     depends_on:
       - db
       - wp
+      
 
   pma:
     image: phpmyadmin/phpmyadmin
